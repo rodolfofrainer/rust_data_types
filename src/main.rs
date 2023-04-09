@@ -25,6 +25,15 @@ fn main() {
     let _f = false;
 
     let c = 'c';
-    println!("{}", c)
+    println!("{}", c);
+
+    let a = 10;
+    let b = 5;
+
+    println!("{}", a + b);
+    println!("{}", a-b);
+    println!("{}", a*b);
+    println!("{}", a/b);
+    println!("{}", a%b);
 
 }
