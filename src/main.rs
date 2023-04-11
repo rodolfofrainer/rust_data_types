@@ -18,22 +18,29 @@ fn main() {
     // let byte = b'A';
     // println!("{}",byte)
 
-    let _x =2.0; 
-    let _y: f32 = 1.0;
+    // let _x =2.0; 
+    // let _y: f32 = 1.0;
 
-    let _t = true;
-    let _f = false;
+    // let _t = true;
+    // let _f = false;
 
-    let c = 'c';
-    println!("{}", c);
+    // let c = 'c';
+    // println!("{}", c);
 
-    let a = 10;
-    let b = 5;
+    // let a = 10;
+    // let b = 5;
 
-    println!("{}", a + b);
-    println!("{}", a-b);
-    println!("{}", a*b);
-    println!("{}", a/b);
-    println!("{}", a%b);
+    // println!("{}", a + b);
+    // println!("{}", a-b);
+    // println!("{}", a*b);
+    // println!("{}", a/b);
+    // println!("{}", a%b);
 
+
+    let tup = (500,"tup", true);
+    // println!("{}", tup.2);
+    let (x,y,z) = tup;
+    println!("{}",x);
+    println!("{}",y);
+    println!("{}",z);
 }
