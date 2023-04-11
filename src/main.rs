@@ -37,10 +37,19 @@ fn main() {
     // println!("{}", a%b);
 
 
-    let tup = (500,"tup", true);
+    // let tup = (500,"tup", true);
     // println!("{}", tup.2);
-    let (x,y,z) = tup;
-    println!("{}",x);
-    println!("{}",y);
-    println!("{}",z);
+    // let (x,y,z) = tup;
+    // println!("{}",x);
+    // println!("{}",y);
+    // println!("{}",z);
+
+    // let array = [1,2,3];
+    // println!("{}", array[1]);
+
+    let mut array2: [i32;3] = [4,5,6];
+    println!("{}", array2[0]);
+
+    array2[0] = 10;
+    println!("{}", array2[0]);
 }
