@@ -78,24 +78,28 @@ fn main() {
 // 
     // println!("{:?}", sv);
 
-    let name = String::from("Tyler");
-    let course = "Rust".to_string();
-    let new_name = name.replace("Tyler", "Ty");
+    // let name = String::from("Tyler");
+    // let course = "Rust".to_string();
+    // let new_name = name.replace("Tyler", "Ty");
 
-    println!("{}", name);
-    println!("{}", course);
-    println!("{}", new_name);
+    // println!("{}", name);
+    // println!("{}", course);
+    // println!("{}", new_name);
 
-    // &str = "string slice" or "stir"
+    // // &str = "string slice" or "stir"
 
-    let str1 = "hello";
-    println!("{}",str1);
+    // let str1 = "hello";
+    // println!("{}",str1);
 
-    let str2 = str1.to_string();
-    let str3 = &str2;
-    println!("{}", str2);
-    println!("{}", str3);
+    // let str2 = str1.to_string();
+    // let str3 = &str2;
+    // println!("{}", str2);
+    // println!("{}", str3);
 
-    //compare string == or !=
-    println!("{}", "ONE".to_lowercase()=="one");
+    // //compare string == or !=
+    // println!("{}", "ONE".to_lowercase()=="one");
+
+    //STRING LITERALS (NOT UTF-8 VALID)
+    // let rust = "\x52\x75\x73\x74";
+    // println!("{}", rust);
 }
